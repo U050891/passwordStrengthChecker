@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Strength Checker</h1>
+    <label for="password">Enter Password:</label>
+    <div class="input-container">
+      <input type="password" id="passwordInput" placeholder="Password">
+        <button onclick="togglePasswordVisibility()"> <span class="material-symbols-outlined">
+          visibility_off
+          </span>  
+       </button>
+  </div>
+    <button onclick="checkPasswordStrength()">Check Strength</button>
+    <button onclick="refreshPassword()">
+      <span class="material-symbols-outlined">refresh</span>
+    </button>
+    <p id="strengthIndicator"></p>
+    <p id="passwordSuggestions"></p> 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

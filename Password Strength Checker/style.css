@@ -1,0 +1,91 @@
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 59, 46, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #275044;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #dcf7ed;
+  }
+  
+  input[type="password"] {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #00e1a6;
+    background-color: #173029;
+    text-align: center;
+    
+  }
+  
+  input[type="password"]::placeholder {
+    color: #73e7c5;
+    
+  }
+
+  input[type="text"] {
+
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #00e1a6;
+    background-color: #173029;
+    text-align: center;
+
+  }
+  
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #73e7c5;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #47cea7;
+  }
+  
+  button {
+    background-color: #1a8b6a;
+    color: #b5e7da;
+    border: none;
+    border-radius: 40px;
+    padding: 9px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    margin: 5% auto;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #dcf7ed;
+    text-align: center;
+  }
+  
+
+
+
+
